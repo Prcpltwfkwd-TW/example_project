@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling >= 1.26"]
+requires = ["hatchling >= 1.26", "numpy >= 2.3"]
 build-backend = "hatchling.build"
 
 [project]
@@ -17,6 +17,7 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
+dependencies = ["numpy >= 2.3"]
 
 [project.urls]
 Homepage = "https://github.com/pypa/sampleproject"
