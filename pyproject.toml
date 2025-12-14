@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.26", "numpy >= 2.3"]
 build-backend = "hatchling.build"
 
 [project]
-name = "example_pacakge_bm99"
+name = "example_package_bm99"
 version = "0.0.1"
 authors = [
   { name="Hao", email="chunhaoc777@gmail.com" },
